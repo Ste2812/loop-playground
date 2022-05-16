@@ -14,8 +14,12 @@
  for (let i=-5;i<numeroFinal; i++) {
     console.log("Voy a ejecutar el condicional para el número: " + i)
     // Modificar a partir de aquí
+   
+    if (i>0 || i==0){
     console.log("Soy un número positivo!")
+    } else {
     console.log("Soy un núemro negativo!")
+    }
 }
 
 /**

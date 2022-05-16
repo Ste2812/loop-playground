@@ -11,6 +11,24 @@
 
 let mes = 4;
 
+
+
 // Escribir a partir de aquí
 
-
+switch (mes) {
+    case 1:
+        console.log("primer trimestre");
+        break;
+    case 2:
+        console.log("segundo trimestre");
+        break;
+    case 3:
+        console.log("tercer trimestre");
+        break;
+    case 4:
+        console.log("cuarto trimestre");
+        break;
+        default:
+            console.log("selección no valida");
+            break;
+}
